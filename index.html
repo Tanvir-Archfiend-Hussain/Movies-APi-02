@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--https://www.youtube.com/watch?v=TgE71N0q5yI 12 min-->
     <!----------Stylesheet----------->
-    <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!----------Google Fonts--------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,18 +17,47 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="search-container">
-        <input
-          type="text"
-          placeholder="Enter movie name heree..."
-          id="movie-name"
-          value=" dark knight..."
-        />
-        <button id="search-btn">Search</button>
+    <section>
+      <!-- CHECKBOX -->
+      <input type="checkbox" id="check" />
+      <header>
+        <!-- LOGO -->
+        <h2><a href="" class="logo">💝HOLS</a></h2>
+        <!-- NAVBAR -->
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Info</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+        <label for="check">
+          <!-- BARS & CROSS -->
+          <i id="bars-btn" class="fa-solid fa-bars"></i>
+          <i id="close-btn" class="fa-solid fa-circle-xmark"></i>
+        </label>
+      </header>
+      <div class="content">
+        <!-- INFO -->
+        <div class="info">
+          <h2>Like Nature <br /><span>💝Be creative</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            accusantium atque, alias non molestias optio sed. Sed mollitia
+            rerum, magnam facilis dolore tempore, cupiditate voluptas quisquam
+            iure porro optio necessitatibus.
+          </p>
+          <a href="" class="info-btn">💝More Info</a>
+        </div>
       </div>
-      <div id="result"></div>
-      <br /><a href="">LINK</a>
-    </div>
+      <div class="media-icons">
+        <!-- MEDIA ICONS -->
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+      </div>
+    </section>
   </body>
 </html>
